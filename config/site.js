@@ -3,8 +3,8 @@ module.exports = {
   title: 'Gatsby Starter Noodles', // Navigation and Site Title
   titleAlt: 'Gatsby Starter Noodles', // Title for JSONLD
   description: 'Gatsby Starter Noodles',
-  url: 'http://twitter.com/so99ynoodles', // Domain of your site. No trailing slash!
-  siteUrl: 'http://twitter.com/so99ynoodles/', // url + pathPrefix
+  url: 'https://gatsby-starter-noodles.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://gatsby-starter-noodles.netlify.com/', // url + pathPrefix
   siteLanguage: 'ja', // Language Tag on <html> element
   logo: 'static/logo/logo.png', // Used for SEO
   banner: 'static/logo/banner.png',
@@ -13,7 +13,7 @@ module.exports = {
   favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
   shortName: 'GatsbyNoodle', // shortname for manifest. MUST be shorter than 12 characters
   author: 'Ikeda', // Author for schemaORGJSONLD
-  themeColor: '#3e7bf2',
-  backgroundColor: '#d3e0ff',
+  themeColor: '#ffffff',
+  backgroundColor: '#ffffff',
   twitter: '@so99ynoodles' // Twitter Username
 }

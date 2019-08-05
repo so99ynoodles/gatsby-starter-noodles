@@ -27,7 +27,16 @@ module.exports = {
               linkImagesToOriginal: true
             }
           },
-          'gatsby-remark-prismjs'
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false
+            }
+          }
         ]
       }
     },
@@ -36,7 +45,7 @@ module.exports = {
       options: {
         autoLabel: process.env.NODE_ENV !== 'production',
         // eslint-disable-next-line
-				labelFormat: `[filename]--[local]`
+        labelFormat: `[filename]--[local]`,
       }
     },
     'gatsby-plugin-sharp',
