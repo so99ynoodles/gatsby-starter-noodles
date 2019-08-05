@@ -70,7 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
         const tags = Object.keys(postsByTag)
 
         createPage({
-          path: '/tags',
+          path: '/taglist',
           component: tagPage,
           context: {
             tags: tags.sort()

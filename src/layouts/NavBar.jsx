@@ -28,7 +28,7 @@ const NavBar = () => {
       </Link>
       <nav>
         <Link to='/about'>About</Link>
-        <Link to='/tags'>Tag List</Link>
+        <Link to='/taglist'>Tag List</Link>
         <ThemeContext.Consumer>
           {({ setColorMode, colorMode }) => (
             <StyledIcon
