@@ -34,6 +34,7 @@ const NavBar = () => {
             <StyledIcon
               onClick={setColorMode}
               src={colorMode === 'light' ? moon : sun}
+              alt='colorMode'
             />
           )}
         </ThemeContext.Consumer>

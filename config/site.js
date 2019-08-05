@@ -5,7 +5,7 @@ module.exports = {
   description: 'Gatsby Starter Noodles',
   url: 'http://twitter.com/so99ynoodles', // Domain of your site. No trailing slash!
   siteUrl: 'http://twitter.com/so99ynoodles/', // url + pathPrefix
-  siteLanguage: 'jp', // Language Tag on <html> element
+  siteLanguage: 'ja', // Language Tag on <html> element
   logo: 'static/logo/logo.png', // Used for SEO
   banner: 'static/logo/banner.png',
 
