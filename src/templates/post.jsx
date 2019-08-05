@@ -20,6 +20,9 @@ const PostSuggestion = styled.div`
   display: flex;
   align-items: center;
   margin: 1rem 3rem 0 3rem;
+  a {
+    color: ${props => props.theme.colors.text.base};
+  }
 `
 
 const Post = ({ data, pageContext }) => {
