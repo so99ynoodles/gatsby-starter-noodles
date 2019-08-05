@@ -12,9 +12,9 @@ Watch <a href="https://gatsby-starter-noodles.netlify.com/">Demo</a>
 - Maximum Google Lighthouse Score
 - SEO
 - PWA
-- MDX (coming soon)
 - DarkMode Implementation
 - Emotion
 - Headroom
 
-フルスクラッチでの作り方(coming soon)
+フルスクラッチでの作り方
+https://qiita.com/so99ynoodles/items/87e136d09644baac634c
