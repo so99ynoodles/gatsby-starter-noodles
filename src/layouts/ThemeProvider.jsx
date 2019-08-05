@@ -6,7 +6,11 @@ import { getTheme } from '../../config/theme'
 import { title } from '../../config/site'
 
 const ThemeProvider = ({ children }) => {
-  const [colorMode, setColorMode] = useState(localStorage.getItem(title) || 'light')
+  const [colorMode, setColorMode] = useState(undefined)
+
+  useEffect(() => {
+    setColorMode(localStorage.getItem(title) || 'light')
+  }, [])
 
   useEffect(() => {
     localStorage.setItem(title, colorMode)
